@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EB6330AC-AEE5-4421-AE1A-4F232D720E30}</ProjectGuid>
+    <ProjectGuid>{43793534-9A5E-4623-8637-7C9CC98EF5D4}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>App1.Droid</RootNamespace>
-    <AssemblyName>App1.Android</AssemblyName>
+    <RootNamespace>Frontend.Droid</RootNamespace>
+    <AssemblyName>Frontend.Android</AssemblyName>
     <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
@@ -81,7 +81,7 @@
   </ItemGroup>
 
 
-  <Import Project="..\App1\App1.projitems" Label="Shared" />
+  <Import Project="..\Frontend\Frontend.projitems" Label="Shared" />
 
  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

@@ -5,12 +5,12 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{95030F4E-CD4F-4CBF-8F4F-D0CF2A25A87A}</ProjectGuid>
+    <ProjectGuid>{8AC7CF85-3D2D-485C-A57C-F8DF30AB5711}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
-    <RootNamespace>App1.iOS</RootNamespace>
+    <RootNamespace>Frontend.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>App1.iOS</AssemblyName>
+    <AssemblyName>Frontend.iOS</AssemblyName>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
@@ -122,5 +122,5 @@
     <PackageReference Include="Xamarin.Forms" Version="2.5.0.121934" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
-  <Import Project="..\App1\App1.projitems" Label="Shared" />
+  <Import Project="..\Frontend\Frontend.projitems" Label="Shared" />
 </Project>

@@ -3,10 +3,10 @@
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
     <HasSharedItems>true</HasSharedItems>
-    <SharedGUID>{22A73DC0-843F-4260-85D1-78DE6481FA9E}</SharedGUID>
+    <SharedGUID>{6231CF03-62BA-4170-92C2-887F07C881A2}</SharedGUID>
   </PropertyGroup>
   <PropertyGroup Label="Configuration">
-    <Import_RootNamespace>App1</Import_RootNamespace>
+    <Import_RootNamespace>Frontend</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)App.xaml" />
